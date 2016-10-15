@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>求矩形的周长和面积</title>
+</head>
+<body>
+<script type="text/javascript">
+    function circumference1(height,width){
+        var height;
+        var width;
+        circumference1 =(height + width)*2;
+        console.log(circumference1)
+    }
+    function area2(height,width){
+        var height;
+        var width;
+        area2 =height * width;
+        console.log(area2)
+    }
+
+    circumference1(10,5);
+    area2(10,5);
+
+    var data=new Array();
+
+    data[0]=circumference1;
+    data[1]=area2;
+
+    document.write("矩形的周长为："+data[0]+"<br>");
+    document.write("矩形的面积为："+data[1]+"<br>");
+
+</script>
+</body>
+</html>
