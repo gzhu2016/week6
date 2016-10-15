@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>周长和面积</title>
+</head>
+<body>
+<script type="text/javascript">
+    function zhouchang(height,width){
+        var height;
+        var width;
+        zhouchang =(height + width)*2;
+        console.log(zhouchang)
+    }
+    function mianji(height,width){
+        var height;
+        var width;
+        mianji =height*width;
+        console.log(mianji)
+    }
+
+    zhouchang(5,2);
+    mianji(5,2);
+
+    var data=new Array();
+    data[0]=zhouchang;
+    data[1]=mianji;
+
+    document.write("周长为："+data[0]+"<br>");
+    document.write("面积为："+data[1]+"<br>");
+
+</script>
+</body>
+</html>
