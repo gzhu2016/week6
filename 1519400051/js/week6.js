@@ -30,7 +30,7 @@ function f3(height,width)
 {
     var date=new Array();
 
-    date[0]=2*(height*width);
+    date[0]=2*(height+width);
     date[1]=height*width;
 
     console.log(date);
